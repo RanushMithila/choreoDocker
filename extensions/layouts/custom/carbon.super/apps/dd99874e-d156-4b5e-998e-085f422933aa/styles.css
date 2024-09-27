@@ -1,0 +1,150 @@
+/**
+ * Copyright (c) 2024, WSO2 LLC. (http://www.wso2.com). All Rights Reserved.
+ *
+ * This software is the property of WSO2 LLC. and its suppliers, if any.
+ * Dissemination of any information or reproduction of any material contained
+ * herein in any form is strictly forbidden, unless permitted by WSO2 expressly.
+ * You may not alter or remove any copyright or other notice from copies of this content."
+ */
+
+/* Asgardeo main layout styles */
+.login-portal.layout .page-wrapper.asg-main-layout > .center-segment > .slogan-container {
+    display: block;
+    padding-bottom: 60px;
+}
+
+.login-portal.layout .page-wrapper.asg-main-layout > .center-segment .ui.container > .product-logo {
+    display: none;
+}
+
+.login-portal.layout .page-wrapper.right-aligned {
+    background: radial-gradient(circle at 72% 47%,rgba(85,102,213,.13836485) 0,rgba(245,246,246,.28559174) 29%,#f5f6f6 100%),radial-gradient(circle at 72% 47%,rgba(144,37,142,.10433123) 0,rgba(245,246,246,.08559174) 27%,#f5f6f6 100%);
+}
+
+@media only screen and (max-width: 1200px) {
+    .login-portal.layout .page-wrapper.asg-main-layout > .center-segment > .slogan-container {
+        display: none;
+    }
+
+    .login-portal.layout .page-wrapper.asg-main-layout > .center-segment .ui.container > .product-logo {
+        display: inline-block;
+    }
+
+    .login-portal.layout .page-wrapper.asg-main-layout.right-aligned {
+        background: radial-gradient(circle at 50% 50%,rgba(85,102,213,.21836485) 0,rgba(245,246,246,.38559174) 35%,#f5f6f6 100%),radial-gradient(circle at 50% 50%,rgba(144,37,142,.12343312) 0,rgba(245,246,246,.38559174) 47%,#f5f6f6 100%);
+    }
+}
+
+/* Asgardeo success page layout styles */
+.login-portal.layout .page-wrapper.asg-success-layout .ui.green.segment:not(.inverted) {
+    border-top: none !important;
+}
+
+.login-portal.layout .page-wrapper.asg-success-layout .ui.green.segment {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    border: none;
+}
+
+.login-portal.layout .page-wrapper.asg-success-layout .ui.segment {
+    background: none;
+    padding: 0;
+}
+
+.login-portal.layout .page-wrapper.asg-success-layout .ui.green.segment.mt-3 {
+    margin-top: 0 !important;
+}
+
+.login-portal.layout .page-wrapper.asg-success-layout .ui.header.slogan-message {
+    color: #231f20 !important;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 570px;
+    line-height: 32px;
+    margin-top: 1.9em !important;
+    margin-right: 0;
+    text-align: left !important;
+    margin-bottom: 0 !important;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+/* Asgardeo error page layout styles */
+.login-portal.layout .page-wrapper.asg-error-layout .ui.orange.segment:not(.inverted) {
+    border-top: none !important;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.attached.segment {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    border: none;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.segment {
+    background: transparent;
+    padding: 0;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.attached.segment.mt-3 {
+    margin-top: 0 !important;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.header.slogan-message {
+    max-width: 570px;
+    font-size: 24px;
+    margin-right: 0;
+    font-weight: 600;
+    line-height: 32px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.header.slogan-message.text-center {
+    text-align: left !important;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.header.slogan-message.mb-6.mt-3 {
+    margin-top: 1.9em !important;
+    margin-bottom: 1rem !important;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.bottom.attached.message {
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.bottom.attached.warning.message {
+    background-color: transparent !important;
+}
+
+.login-portal.layout .page-wrapper.asg-error-layout .ui.bottom.attached.warning.message .text-left {
+    color: #4e4b4b;
+    margin-top: 24px !important;
+    max-width: 570px;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 1;
+    margin: 0 0 1em;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.image-container {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
