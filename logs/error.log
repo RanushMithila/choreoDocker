@@ -5,3 +5,13 @@
 2024/09/30 04:42:51 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
 2024/09/30 04:42:51 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
 2024/09/30 04:42:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/30 04:42:51 [notice] 1#1: start worker processes
+2024/09/30 04:42:51 [notice] 1#1: start worker process 30
+2024/09/30 04:42:51 [notice] 1#1: start worker process 31
+2024/09/30 04:42:51 [notice] 1#1: start worker process 32
+2024/09/30 04:42:51 [notice] 1#1: start worker process 33
+2024/09/30 04:42:51 [notice] 1#1: start worker process 34
+2024/09/30 04:42:51 [notice] 1#1: start worker process 35
+2024/09/30 04:42:51 [notice] 1#1: start worker process 36
+2024/09/30 04:42:51 [notice] 1#1: start worker process 37
+2024/09/30 04:43:08 [error] 32#32: *3 open() "/usr/share/nginx/html/assets/index-jzDMXzH4.js" failed (2: No such file or directory), client: 192.168.127.1, server: localhost, request: "GET /assets/index-jzDMXzH4.js HTTP/1.1", host: "localhost:1111", referrer: "http://localhost:1111/"
