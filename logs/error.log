@@ -1,0 +1,7 @@
+2024/09/30 04:40:36 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:29
+2024/09/30 04:41:22 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:29
+2024/09/30 04:42:51 [notice] 1#1: using the "epoll" event method
+2024/09/30 04:42:51 [notice] 1#1: nginx/1.27.1
+2024/09/30 04:42:51 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/09/30 04:42:51 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/09/30 04:42:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
